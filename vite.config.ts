@@ -36,7 +36,12 @@ export default defineConfig({
     server: {},
     coverage: {
       provider: 'istanbul',
-      reporter: ['text', 'lcov'],
+      reporter: [
+        ['text', { file: 'coverage.txt' }],
+        ['text-summary', { file: 'coverage-summary.txt' }],
+        'html',
+      ],
+      reportOnFailure: true,
       reportsDirectory: './coverage',
       include: ['src/'],
       exclude: ['node_modules/', '__tests__/'],

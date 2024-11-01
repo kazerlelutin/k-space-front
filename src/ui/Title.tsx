@@ -33,6 +33,7 @@ export function Title({ title, size = 2 }: TitleProps): JSX.Element {
     <Tag
       className="uppercase data-[size='2']:text-lg data-[size='3']:text-md data-[size='4']:text-md"
       data-size={size}
+      aria-labelledby={title}
     >
       {title}
     </Tag>

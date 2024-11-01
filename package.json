@@ -7,11 +7,13 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "coverage": "vitest --coverage"
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@editorjs/editorjs": "^2.30.6",
     "@editorjs/underline": "^1.2.1",
+    "i18next": "^23.16.4",
+    "i18next-browser-languagedetector": "^8.0.0",
     "preact": "^10.22.1",
     "preact-iso": "^2.8.1",
     "preact-render-to-string": "^6.5.11"
@@ -23,19 +25,19 @@
     "@testing-library/jest-dom": "^6.6.2",
     "@testing-library/preact": "^3.2.4",
     "@unocss/postcss": "^0.63.6",
-    "@vitest/coverage-istanbul": "^2.1.3",
-    "@vitest/ui": "^2.1.3",
+    "@vitest/coverage-istanbul": "^2.0.5",
+    "@vitest/ui": "^2.0.5",
     "editorjs-inline-spoiler-tool": "^1.0.1",
     "eslint": "^8.57.1",
     "eslint-config-preact": "^1.5.0",
     "fast-check": "^3.22.0",
     "jsdom": "^25.0.1",
-    "msw": "^2.5.2",
+    "msw": "^1.3.5",
     "typescript": "^5.6.3",
     "unocss": "^0.63.6",
     "vite": "^5.3.3",
     "vite-tsconfig-paths": "^5.0.1",
-    "vitest": "^2.1.3",
+    "vitest": "^2.0.5",
     "vitest-axe": "^0.1.0"
   },
   "eslintConfig": {
