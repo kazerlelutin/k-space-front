@@ -1,11 +1,13 @@
 import { defineConfig } from 'vite'
 import preact from '@preact/preset-vite'
+import UnoCSS from 'unocss/vite'
 
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    UnoCSS(),
     tsconfigPaths(),
     preact({
       prerender: {
@@ -34,7 +36,7 @@ export default defineConfig({
     server: {},
     coverage: {
       provider: 'istanbul',
-      reporter: ['text', 'html'],
+      reporter: ['text', 'lcov'],
       reportsDirectory: './coverage',
       include: ['src/'],
       exclude: ['node_modules/', '__tests__/'],
