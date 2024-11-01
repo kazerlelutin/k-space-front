@@ -1,7 +1,6 @@
 import EditorJS from '@editorjs/editorjs'
 import underline from '@editorjs/underline'
 import delimiter from '@editorjs/delimiter'
-import TextSpolier from 'editorjs-inline-spoiler-tool'
 import Header from '@editorjs/header'
 import { useId } from 'preact/hooks'
 
