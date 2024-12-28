@@ -1,3 +1,21 @@
 {
-  "hello": "Bonjour ouioui"
+  "made": "fait",
+  "gifs": "... des gifs",
+  "moreGifsOnMyGhiphyChannel": "Plus de gifs sur ma chaîne Giphy",
+  "viewOnItchIo": "Voir sur Itch.io",
+  "games": "... des jeux",
+  "followMe": "Suivez-moi",
+  "contact": "Contact",
+  "legalNotice": "Mentions légales",
+  "home": "Accueil",
+  "personalData": "Données personnelles",
+  "siteActivity": "Activité du site",
+  "responsibility": "Responsabilité",
+  "questionsContact": "Pour toute question ou demande d'information, vous pouvez contacter Benoist Bouteiller via le formulaire de contact.",
+  "editorSite": "Éditeur du site",
+  "responsibilityText": "L'éditeur du site n'est pas responsable des dommages directs ou indirects causés par l'utilisation ou l'impossibilité d'utiliser le site. L'éditeur s'efforce de fournir des informations précises et à jour, mais ne peut garantir l'exactitude, l'exhaustivité ou la pertinence des informations fournies sur le site.",
+  "siteActivityText": "Ce site ne sert pas à l'activité professionnelle de Benoist Bouteiller en tant qu'auto-entrepreneur.",
+  "domainName": "Nom de domaine",
+  "hosting": "Hébergement",
+  "personalDataText": "Le site n’utilise aucun cookie tiers pour le suivi des utilisateurs et ne nécessite pas de création de compte. Aucune donnée personnelle n'est collectée ou vendue. Pour plus d'informations, veuillez consulter notre politique de confidentialité (à venir)."
 }

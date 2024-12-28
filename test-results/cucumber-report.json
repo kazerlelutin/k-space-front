@@ -1,0 +1,88 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-with-otp;i-am-on-the-login-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "I am on the login page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 622328799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "file:\\F:\\www\\k-space\\k-space-front\\__tests__\\step-definitions\\feat_test\\auth\\login.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108348299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter my email",
+            "match": {
+              "location": "file:\\F:\\www\\k-space\\k-space-front\\__tests__\\step-definitions\\feat_test\\auth\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1424599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be logged in",
+            "match": {
+              "location": "file:\\F:\\www\\k-space\\k-space-front\\__tests__\\step-definitions\\feat_test\\auth\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147608500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 344914199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@critical",
+            "line": 6
+          },
+          {
+            "name": "@otp",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-with-otp",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User authentication with OTP",
+    "tags": [],
+    "uri": "features\\user_auth.feature"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "default": {
+    "loader": ["ts-node/esm"],
+    "import": ["features/**/*.ts", "__tests__/step-definitions/**/*.steps.ts"],
+    "format": [
+      "progress-bar",
+      "html:test-results/cucumber-report.html",
+      "json:test-results/cucumber-report.json",
+      "rerun:@rerun.txt"
+    ],
+    "parallel": 2
+  }
+}

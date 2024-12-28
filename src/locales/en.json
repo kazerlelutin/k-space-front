@@ -1,3 +1,21 @@
 {
-  "hello": "Hello"
+  "made": "Made",
+  "gifs": "... Gifs",
+  "moreGifsOnMyGhiphyChannel": "More gifs on my Giphy channel",
+  "viewOnItchIo": "View on Itch.io",
+  "games": "... Games",
+  "followMe": "Follow me",
+  "contact": "Contact",
+  "legalNotice": "Legal notice",
+  "home": "Home",
+  "personalData": "Personal data",
+  "siteActivity": "Site activity",
+  "responsibility": "Responsibility",
+  "questionsContact": "For any question or information request, you can contact Benoist Bouteiller via the contact form.",
+  "editorSite": "Site editor",
+  "responsibilityText": "The site editor is not responsible for direct or indirect damages caused by the use or inability to use the site. The editor strives to provide accurate and up-to-date information, but cannot guarantee the accuracy, completeness or relevance of the information provided on the site.",
+  "siteActivityText": "This site does not serve the professional activity of Benoist Bouteiller as a self-employed person.",
+  "domainName": "Domain name",
+  "hosting": "Hosting",
+  "personalDataText": "The site does not use any third-party cookies for user tracking and does not require account creation. No personal data is collected or sold. For more information, please refer to our privacy policy (coming soon)."
 }

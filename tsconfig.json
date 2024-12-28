@@ -17,5 +17,12 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["node_modules/vite/client.d.ts", "**/*", "./**/*.test.ts"]
+  "include": ["node_modules/vite/client.d.ts", "**/*", "./**/*.test.ts"],
+  /* Cucumber Config */
+  "ts-node": {
+    "compilerOptions": {
+      "target": "ES6",
+      "moduleResolution": "node"
+    }
+  }
 }
