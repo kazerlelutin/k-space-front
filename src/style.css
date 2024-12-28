@@ -79,6 +79,84 @@ main[data-menu='true'] {
   color: var(--color-k-text);
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-k-text);
+  border-radius: 5px;
+}
+
+.kll {
+  animation: kll 4s ease-in-out forwards;
+}
+
+.made {
+  opacity: 0;
+  animation: made 3s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+
+.video {
+  opacity: 0;
+  animation: video 2s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes kll {
+  0% {
+    opacity: 0;
+    color: #f5f5f5;
+  }
+
+  33% {
+    opacity: 0;
+  }
+
+  66% {
+    color: #f5f5f5;
+  }
+
+  100% {
+    color: rgb(51, 133, 62);
+  }
+}
+
+@keyframes video {
+  0% {
+    border-radius: 100%;
+    opacity: 0;
+  }
+
+  25% {
+    border-radius: 0;
+  }
+
+  100% {
+    opacity: 1;
+    border-radius: 0;
+  }
+}
+
+@keyframes made {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (hover: hover) {
   .ce-toolbar__settings-btn:hover {
     background-color: var(--color-k-bg-hover);

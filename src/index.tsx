@@ -5,37 +5,21 @@ import {
   hydrate,
   prerender as ssr,
 } from 'preact-iso'
-
-import { Header } from './components/Header.jsx'
-import { Home } from './pages/Home/index.jsx'
+import { Home } from './pages/Home.js'
 import { NotFound } from './pages/_404.jsx'
 import '@unocss/reset/normalize.css'
 import 'virtual:uno.css'
 import './style.css'
-import { Menu } from './components/Menu.js'
-import { LS_KEYS } from './utils/constants.js'
+import { Legal } from './pages/Legal.js'
 
 export function App() {
-  const isOpen = localStorage.getItem(LS_KEYS.MENU_OPEN) === 'true'
-
   return (
     <LocationProvider>
-      <div className="grid grid-rows-[auto_1fr] text-light-text dark:text-dark-text dark:bg-dark-bg bg-light-bg h-lvh">
-        <Header />
-        <div className="text-light-text dark:text-dark-text dark:bg-dark-bg bg-light-bg h-full relative">
-          <div className="absolute inset-0">
-            <Menu />
-          </div>
-          <main className="relative h-full" data-menu={isOpen}>
-            <div className="absolute inset-0">
-              <Router>
-                <Route path="/" component={Home} />
-                <Route default component={NotFound} />
-              </Router>
-            </div>
-          </main>
-        </div>
-      </div>
+      <Router>
+        <Route path="/" component={Home} />
+        <Route path="/legal" component={Legal} />
+        <Route default component={NotFound} />
+      </Router>
     </LocationProvider>
   )
 }
