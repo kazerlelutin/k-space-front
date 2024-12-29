@@ -7,7 +7,7 @@ import { Identity } from '@/components/Identity'
 
 export function Home() {
   return (
-    <div class="bg-black text-white _snap-mandatory snap-y overflow-y-auto h-[100dvh]">
+    <div class="bg-black text-white _snap-mandatory _snap-y overflow-y-auto h-[100dvh]">
       <Identity />
       <Gifs />
       <div class="h-48" />

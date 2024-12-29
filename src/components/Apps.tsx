@@ -15,7 +15,7 @@ const apps = [
 
 export function Apps() {
   return (
-    <div class="flex flex-col snap-center gap-4 p-6 mb-4">
+    <div class="flex flex-col _snap-center gap-4 p-6 mb-4">
       <h2 class="uppercase">{i18n.t('apps')}</h2>
       <div class="columns-2 md:columns-4 gap-4 p-4">
         {apps?.map((app) => (

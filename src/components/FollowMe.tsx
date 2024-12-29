@@ -31,7 +31,7 @@ const networks = [
 
 export function FollowMe() {
   return (
-    <div class="flex flex-col snap-center gap-4 p-6 mb-4">
+    <div class="flex flex-col _snap-center gap-4 p-6 mb-4">
       <h2 class="uppercase">{i18n.t('followMe')}</h2>
 
       <div class="flex flex-wrap gap-6 p-4 justify-center items-center">
